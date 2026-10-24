@@ -1,16 +1,42 @@
-## Hi there 👋
+# Parameters Tools
 
-<!--
-**parameters-tools/parameters-tools** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**We build tools that solve real problems.**
 
-Here are some ideas to get you started:
+Parameters Tools is an independent software initiative focused on practical developer tools, systems software, and experiments across Rust, infrastructure, and artificial intelligence.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+We believe the best way to learn engineering is to build things, understand how they work, and improve them through iteration.
+
+## What We Build
+
+- **Developer Tools** — CLI utilities and software that improve everyday workflows.
+- **Systems Software** — Experiments with Rust, Linux, containers, and infrastructure.
+- **AI & Machine Learning** — Practical tools and experiments exploring AI capabilities.
+
+## Projects
+
+### GOLEM
+A lightweight Rust CLI for creating, managing, and monitoring Dockerized Minecraft servers.
+
+- Container lifecycle management
+- Persistent world storage
+- Network connection information
+- Server resource statistics
+
+**Tech:** Rust · Docker
+
+More projects coming as we build and ship.
+
+## Our Philosophy
+
+- Build useful things.
+- Keep software focused and maintainable.
+- Prefer understanding over unnecessary complexity.
+- Learn by building, testing, and improving.
+
+## Technology
+
+Rust · Linux · Docker · Python · AI/ML
+
+---
+
+*Independent projects. Practical engineering. Continuous improvement.*
