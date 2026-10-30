@@ -89,6 +89,27 @@ git clone https://github.com/parameters-tools/dockerdash.git && cd dockerdash &&
 git clone https://github.com/parameters-tools/golem.git && cd golem && cargo install --path .
 ```
 
+---
+
+### [📦 VMPOD](https://github.com/parameters-tools/vmpod)
+> **Fast, local-first CLI to spin up and orchestrate hardware-accelerated Linux VMs inside Docker using QEMU and KVM.**
+
+[![Rust](https://img.shields.io/badge/Rust-2021-orange.svg?style=flat-square&logo=rust)](https://github.com/parameters-tools/vmpod)
+[![Docker](https://img.shields.io/badge/Docker-Bollard-blue.svg?style=flat-square&logo=docker)](https://github.com/parameters-tools/vmpod)
+[![KVM](https://img.shields.io/badge/KVM-Accelerated-red.svg?style=flat-square&logo=linux)](https://github.com/parameters-tools/vmpod)
+[![License: MIT/Apache-2.0](https://img.shields.io/badge/License-MIT%2FApache--2.0-blue.svg?style=flat-square)](https://github.com/parameters-tools/vmpod/blob/main/LICENSE)
+
+- **Hardware-Accelerated Virtualization**: Direct `/dev/kvm` passthrough to QEMU running inside Docker for near-native CPU and memory execution speeds.
+- **Direct Bollard Socket IPC**: Direct async communication over `/var/run/docker.sock` via Bollard without shelling out to the Docker CLI.
+- **Fail-Fast Pre-Flight Engine**: Validates host KVM capability, device node permissions, and Docker daemon connectivity prior to container allocation.
+- **Direct Host Volume Mapping**: Mounts host storage directly to bypass `overlay2` storage driver overhead and prevent nested copy-on-write degradation.
+- **Zero-Friction SSH**: Automatic Ed25519 key generation and guest credential provisioning with user-space SLIRP networking.
+
+**Quick Install:**
+```bash
+git clone https://github.com/parameters-tools/vmpod.git && cd vmpod && cargo install --path .
+```
+
 *More tools coming as we build and ship.*
 
 ---
